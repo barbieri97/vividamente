@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VividaMente</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <link rel="icon" href="assets/icons/logo_white.ico" type="image/x-icon" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -13,10 +14,11 @@
     ></script>
     <script src="js/menu.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/servicos.js"></script>
   </head>
   <body>
     <div id="loadMask">
-      <img src="assets/logo_purple_text.png" alt="logo" />
+      <img class="img-home" src="assets/logo_purple_text.png" alt="logo" />
     </div>
     <header>
       <a href="/"
@@ -27,7 +29,65 @@
       </div>
       <nav id="navMenu" class="nav-menu"></nav>
     </header>
-    <main></main>
+    <main>
+      <section id="section1">
+        <div>
+          <div class="texto-home">
+            <h1>CLÍNICA DE PSICOLOGIA VIVIDAMENTE</h1>
+            <p>
+              Bem-vindo ao nosso espaço de bem-estar mental. Aqui, nossa equipe
+              de psicólogos qualificados oferece suporte personalizado para
+              ansiedade, depressão, questões de relacionamento e desenvolvimento
+              pessoal. Priorizamos sua saúde psicológica com abordagens feitas
+              sob medida para você.
+            </p>
+          </div>
+          <div class="image-home">
+            <img class="img-home" src="assets\image1.png" alt="image1" />
+          </div>
+        </div>
+        <div>
+          <div class="image-home">
+            <img class="img-home" src="assets\image2.png" alt="image2" />
+          </div>
+          <div class="texto-home">
+            <p>
+              Nosso compromisso é ajudá-lo a encontrar equilíbrio em sua vida.
+              Utilizamos técnicas terapêuticas baseadas em evidências, com um
+              olhar empático. Explore nosso site para conhecer nossos serviços e
+              descobrir como a terapia pode ser uma ferramenta poderosa para o
+              autoconhecimento e a transformação.
+            </p>
+          </div>
+        </div>
+        <button class="button-white">Marque uma sessão!</button>
+      </section>
+      <section id="section2">
+        <div class="texto-home">
+          <h3 class="text-white">Quando que eu devo procurar um psicólogo?</h3>
+          <button class="button-white-minor">Saiba mais</button>
+        </div>
+        <div>
+          <img
+            src="assets\quando_devo_procurar_um_psicologo.png"
+            alt="quando devo procurar um psicologo"
+          />
+        </div>
+      </section>
+      <section id="section3">
+        <div class="title-section">
+          <img src="assets\logo_purple.png" alt="logo" />
+          <h3 class="text">NOSSOS SERVIÇOS</h3>
+        </div>
+        <div id="servicos"></div>
+      </section>
+      <section id="section4">
+        <div class="title-section">
+          <img src="assets\logo_purple.png" alt="logo" />
+          <h3 class="text">RECOMENDAÇÕES</h3>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="icons-midias">
         <a href="#"><img src="assets/Face.png" alt="facebook" /></a>

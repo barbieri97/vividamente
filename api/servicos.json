@@ -1,0 +1,24 @@
+{
+  "servicos": [
+    {
+      "name": "Psicoterapia",
+      "description": "lorem",
+      "imageLink": "assets/psicoterapia.png"
+    },
+    {
+      "name": "Avaliação Neuropsicológica",
+      "description": "lorem",
+      "imageLink": "assets/avaliacao_neuropsicologica.png"
+    },
+    {
+      "name": "Terapia de Casal",
+      "description": "lorem",
+      "imageLink": "assets/terapia_casal.png"
+    },
+    {
+      "name": "Supervisão Clinica",
+      "description": "lorem",
+      "imageLink": "assets/supervisao_clinica.png"
+    }
+  ]
+}
