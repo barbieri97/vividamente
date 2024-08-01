@@ -84,7 +84,7 @@ main {
 }
 
 .nav-menu ul li a:hover {
-    background-color: #555;
+    background-color: var(--pc4);
 }
 
 #loadMask {
@@ -108,6 +108,9 @@ main {
         display: flex;
         position: static;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: fit-content;
     }
 
     .nav-menu ul {
