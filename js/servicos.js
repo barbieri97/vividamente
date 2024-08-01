@@ -6,7 +6,6 @@ $(document).ready(function () {
     var divServico;
 
     infos.forEach((element) => {
-      console.log(element.link);
       divServico = `
         <div class="servico">
         <img src="${element.imageLink}" alt="${element.name}" />
