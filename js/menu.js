@@ -1,7 +1,7 @@
 $(document).ready(function () {
+  const navMenu = $("#navMenu");
   $.get("../api/item_menu.json", function (data) {
     var menu = data.menu;
-    var navMenu = $("#navMenu");
     var menuHtml = "<ul>";
 
     menu.forEach((element) => {
@@ -17,6 +17,16 @@ $(document).ready(function () {
   });
 
   $("#menuIcon").on("click", function () {
-    $("#navMenu").toggle("slow");
+    navMenu
+      .slideToggle(300)
+      .promise()
+      .done(function () {
+        if (navMenu.is(":visible")) {
+          $("#menuButton").attr("src", "../assets/menu_open.png");
+          console.log("open");
+        } else {
+          $("#menuButton").attr("src", "../assets/menu.png");
+        }
+      });
   });
 });
