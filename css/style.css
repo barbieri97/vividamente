@@ -79,11 +79,6 @@ header {
 main {
     min-height: calc(100vh - 226px);
     background-color: var(--sc6);
-    background-image: url("../assets\\logo_white.png");
-    background-size: 357px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .nav-menu {

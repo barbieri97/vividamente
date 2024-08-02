@@ -2,22 +2,10 @@ div {
     display: flex;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-inline: 10px;
-    text-align: center;
-}
-
-
-
 .img-home {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--pc1);
 }
 
 .image-home {
@@ -25,11 +13,10 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    margin-block: 10px;
 }
 
 .texto-home {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +33,10 @@ section {
     border-radius: 30px;
     font-size: 21px;
     color: var(--pc1)
+}
+
+.texto-img {
+    flex-direction: column;
 }
 
 .button-purple-servico {
@@ -89,8 +80,9 @@ section {
     background-color: var(--tc6);
     border-radius: 20px;
     width: 165px;
-    margin-inline: 10px;
+    margin: 15px;
     text-align: center;
+    box-shadow: 5px 5px 5px var(--pc1);
 }
 
 .recomendacoes {
@@ -104,7 +96,8 @@ section {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-inline: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px var(--pc1);
 }
 
 .img-recomendacao {

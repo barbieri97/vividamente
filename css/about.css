@@ -11,7 +11,8 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-inline: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px var(--pc1);
 }
 
 .img-fundador {
