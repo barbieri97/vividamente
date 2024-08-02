@@ -155,3 +155,7 @@ div {
     overflow: hidden;
     display: inline-block;
   }
+
+  iframe {
+    max-width: 350px;
+  }
