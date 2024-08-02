@@ -38,15 +38,6 @@ section {
     margin-inline: 5px;
 }
 
-.button-white {
-    width: 300px;
-    height: 60px;
-    background-color: var(--sc6);
-    border-color: var(--pc1);
-    border-radius: 30px;
-    font-size: 21px;
-    color: var(--pc1)
-}
 .button-white-minor {
     width: 136px;
     height: 40px;
@@ -55,13 +46,6 @@ section {
     border-radius: 30px;
     font-size: 21px;
     color: var(--pc1)
-}
-
-.button-white:hover {
-    background-color: var(--pc1);
-    border-color: var(--sc6);
-    color: var(--sc6);
-    cursor: pointer;
 }
 
 .button-purple-servico {
