@@ -9,6 +9,7 @@ section {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-inline: 10px;
     text-align: center;
 }
 
@@ -100,7 +101,7 @@ section {
 
 #servicos, #recomendacoes {
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .servico {
