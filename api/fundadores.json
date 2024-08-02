@@ -1,0 +1,28 @@
+{
+  "fundadores": [
+    {
+      "name": "Henrique Larenas",
+      "cargo": "CEO",
+      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "imgLink": "assets/pessoa1.png"
+    },
+    {
+      "name": "André Peres Barbieri",
+      "cargo": "CTO",
+      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "imgLink": "assets/pessoa1.png"
+    },
+    {
+      "name": "Alexsandro",
+      "cargo": "Juridico",
+      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "imgLink": "assets/pessoa1.png"
+    },
+    {
+      "name": "Cássio André",
+      "cargo": "Responsável clinico",
+      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "imgLink": "assets/pessoa1.png"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
 :root {
     /* Cores Primárias */
     --pc1: #432B6F;
@@ -27,13 +29,17 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arima", Arial, Helvetica, sans-serif;
    
 }
 
 a {
     text-decoration: none;
     color: var(--tc1);
+}
+
+p {
+    text-align: center;
 }
 
 
@@ -43,6 +49,10 @@ header, footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+header {
+    margin-bottom: 10px;
 }
 
 .icons-midias >  * {
@@ -104,6 +114,17 @@ main {
     background-color: var(--sc6);
     align-items: center;
     justify-content: center;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: var(--pc1);
 }
 
 @media (min-width: 768px) {

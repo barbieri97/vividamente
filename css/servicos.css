@@ -1,0 +1,31 @@
+#servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--tc6);
+    border-radius: 20px;
+    width: 165px;
+    margin: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.button-purple-servico {
+    width: 100%;
+    height: 30px;
+    background-color: var(--pc3);
+    color: var(--tc5);
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    color: var(--sc6)
+}
