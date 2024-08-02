@@ -147,7 +147,8 @@ main {
     border-color: var(--pc1);
     border-radius: 30px;
     font-size: 21px;
-    color: var(--pc1)
+    color: var(--pc1);
+    margin-top: 15px;
 }
 
 .button-white:hover {

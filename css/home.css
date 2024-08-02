@@ -3,7 +3,7 @@ div {
 }
 
 .img-home {
-    width: 400px;
+    width: 350px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px var(--pc1);
 }
