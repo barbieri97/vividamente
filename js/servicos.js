@@ -8,9 +8,11 @@ $(document).ready(function () {
     infos.forEach((element) => {
       divServico = `
         <div class="servico">
+        <a href="infos.html?info=${element.qLink}">
         <img src="${element.imageLink}" alt="${element.name}" />
         <h4>${element.name}</h4>
-        <button class="button-purple-servico">Agendar sessão!</button>
+        </a>
+        <a style="width: 100%;" target="_blank" href="https://wa.me/5511958714718?text=Olá, gostaria de mais informações sobre os seus serviços."> <button class="button-purple-servico">Agendar sessão!</button></a>
         </div>
         `;
       servicos.append(divServico);
