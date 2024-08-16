@@ -17,8 +17,8 @@
 
 .img-fundador {
     width: 44px;
-    height: 44px;
     margin-inline: 5px;
+    border-radius: 10px;
 }
 
 .fundador-name {
@@ -31,10 +31,15 @@
 
 .fundador-name * {
     margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.fundador-name p {
+    font-size: small;
 }
 
 .fundador-id {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
 }

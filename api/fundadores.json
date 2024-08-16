@@ -1,28 +1,28 @@
 {
   "fundadores": [
     {
-      "name": "Henrique Larenas",
+      "name": "Prof. Me. Esp. Henrique Larenas Faria",
       "cargo": "CEO",
-      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "imgLink": "assets/pessoa1.png"
+      "curriculo": "Psicólogo, Filósofo, Neuropsicólogo, Mestre em Comunicação, especialista em Neuropsicologia, Educação, Sexualidade e Adolescência. Professor e Coordenador Universitário, palestrante, desenvolvedor de pesquisas em instrumentação psicológica e com carreira direcionada à docência em testes psicológicos, psicodiagnóstico e transtornos mentais e de personalidade",
+      "imgLink": "assets/henrique.jpg"
     },
     {
       "name": "André Peres Barbieri",
       "cargo": "CTO",
-      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "imgLink": "assets/pessoa1.png"
+      "curriculo": "Formado em Psicologia e Neuropsicologia, com experiência na área clínica, focado na avaliação e intervenção de transtornos mentais. Além disso, atuo como desenvolvedor de software voltado para psicólogos, com o objetivo de otimizar a prática clínica e aumentar a eficácia dos profissionais da área. Minha missão é integrar tecnologia e psicologia para proporcionar melhores resultados no tratamento de pacientes.",
+      "imgLink": "assets/andre.jpg"
     },
     {
-      "name": "Alexsandro",
+      "name": "Prof. Me.Esp. Alexsandro Gomes de Oliveira",
       "cargo": "Juridico",
-      "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "imgLink": "assets/pessoa1.png"
+      "curriculo": "Advogado, Consultor, Mestrando em Direitos Humanos, especialista em Compliance, direito digital, direito do trabalho e processo do trabalho. Professor Universitário e palestrante.",
+      "imgLink": "assets/alex.jpg"
     },
     {
       "name": "Cássio André",
-      "cargo": "Responsável clinico",
+      "cargo": "Responsável administrativo",
       "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "imgLink": "assets/pessoa1.png"
+      "imgLink": "assets/cassio.jpg"
     }
   ]
 }
