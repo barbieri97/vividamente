@@ -5,8 +5,8 @@ $(document).ready(function () {
     var item = data.avaliacoes;
     var divRecomendacoes;
 
+    if (!item.length) return;
     item.forEach((element) => {
-      console.log(element.name);
       divRecomendacoes = `
         <div class="recomendacao">
           <div class="recomendacao-id">
@@ -30,6 +30,7 @@ $(document).ready(function () {
         `;
 
       recomendacoes.append(divRecomendacoes);
+      $("#section4").css("display", "flex");
     });
 
     // Preenche as estrelas
