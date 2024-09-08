@@ -1,27 +1,5 @@
 {
-  "avaliacoes": [
-    {
-      "name": "Carla Albuquerque",
-      "age": 46,
-      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "rating": 4.5,
-      "linkProfile": "assets/pessoa2.png"
-    },
-    {
-      "name": "Carla Albuquerque",
-      "age": 46,
-      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "rating": 4.5,
-      "linkProfile": "assets/pessoa2.png"
-    },
-    {
-      "name": "Carla Albuquerque",
-      "age": 46,
-      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      "rating": 4.5,
-      "linkProfile": "assets/pessoa2.png"
-    }
-  ],
+  "avaliacoes": [],
   "modelo": {
     "name": "Carla Albuquerque",
     "age": 46,
