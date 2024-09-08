@@ -1,18 +1,21 @@
 #fundadores {
-    width: 100%;
+    width: 400px;
     display: flex;
     overflow: auto;
+    scroll-snap-type: x mandatory;
+    
 }
 
 .fundador {
     background-color: var(--tc6);
-    min-width: 350px;
+    min-width: 300px;
     border-radius: 30px 30px 30px 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     margin: 15px;
     box-shadow: 5px 5px 5px var(--sc4);
+    scroll-snap-align: start;
 }
 
 .img-fundador {
