@@ -7,12 +7,6 @@
       "imgLink": "assets/henrique.jpg"
     },
     {
-      "name": "André Peres Barbieri",
-      "cargo": "CTO",
-      "curriculo": "Formado em Psicologia e Neuropsicologia, com experiência na área clínica, focado na avaliação e intervenção de transtornos mentais. Além disso, atuo como desenvolvedor de software voltado para psicólogos, com o objetivo de otimizar a prática clínica e aumentar a eficácia dos profissionais da área. Minha missão é integrar tecnologia e psicologia para proporcionar melhores resultados no tratamento de pacientes.",
-      "imgLink": "assets/andre.jpg"
-    },
-    {
       "name": "Prof. Me.Esp. Alexsandro Gomes de Oliveira",
       "cargo": "Juridico",
       "curriculo": "Advogado, Consultor, Mestrando em Direitos Humanos, especialista em Compliance, direito digital, direito do trabalho e processo do trabalho. Professor Universitário e palestrante.",
@@ -24,5 +18,11 @@
       "curriculo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
       "imgLink": "assets/cassio.jpg"
     }
-  ]
+  ],
+  "modelo": {
+    "name": "André Peres Barbieri",
+    "cargo": "CTO",
+    "curriculo": "Formado em Psicologia e Neuropsicologia, com experiência na área clínica, focado na avaliação e intervenção de transtornos mentais. Além disso, atuo como desenvolvedor de software voltado para psicólogos, com o objetivo de otimizar a prática clínica e aumentar a eficácia dos profissionais da área. Minha missão é integrar tecnologia e psicologia para proporcionar melhores resultados no tratamento de pacientes.",
+    "imgLink": "assets/andre.jpg"
+  }
 }
